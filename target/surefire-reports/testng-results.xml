@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test is being run on Firefox]]>
+    </line>
+    <line>
+      <![CDATA[user is navigated to http://frontier.uhg.com/Pages/Home.aspx]]>
+    </line>
+    <line>
+      <![CDATA[content is UnitedHealthcare]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14228" started-at="2016-05-17T12:35:49Z" finished-at="2016-05-17T12:36:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14228" started-at="2016-05-17T12:35:49Z" finished-at="2016-05-17T12:36:03Z">
+      <class name="test.FirstTest">
+        <test-method status="PASS" signature="testSetUp(java.lang.String)[pri:0, instance:test.FirstTest@104324d9]" name="testSetUp" is-config="true" duration-ms="6151" started-at="2016-05-17T18:05:49Z" finished-at="2016-05-17T18:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is being run on Firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="checkLogo()[pri:1, instance:test.FirstTest@104324d9]" name="checkLogo" duration-ms="7312" started-at="2016-05-17T18:05:55Z" finished-at="2016-05-17T18:06:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[user is navigated to http://frontier.uhg.com/Pages/Home.aspx]]>
+            </line>
+            <line>
+              <![CDATA[content is UnitedHealthcare]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogo -->
+        <test-method status="PASS" signature="kill()[pri:0, instance:test.FirstTest@104324d9]" name="kill" is-config="true" duration-ms="718" started-at="2016-05-17T18:06:03Z" finished-at="2016-05-17T18:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kill -->
+      </class> <!-- test.FirstTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

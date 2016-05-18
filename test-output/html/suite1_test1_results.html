@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<p>
+  Test duration: 29.514s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">test.FirstTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  kill
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;LH7U05CG5385HX7&apos;, ip: &apos;10.198.82.65&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;<br/>
+Driver info: driver.version: RemoteWebDriver<br/>
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, unexpectedAlertBehaviour=dismiss, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, version=11, pageLoadStrategy=normal, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:28993/, ie.forceCreateProcessApi=false, proxy={proxyType=}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)<br />
+              test.FirstTest.kill(FirstTest.java:85)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28993 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;LH7U05CG5385HX7&apos;, ip: &apos;10.198.82.65&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;<br/>
+Driver info: driver.version: RemoteWebDriver</a><br />
+        <div class="stackTrace" id="exception-1">
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)<br />
+                      test.FirstTest.kill(FirstTest.java:85)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">org.apache.http.conn.HttpHostConnectException: Connect to localhost:28993 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-2">
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)<br />
+                      test.FirstTest.kill(FirstTest.java:85)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-3">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)<br />
+                      test.FirstTest.kill(FirstTest.java:85)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  kill
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;LH7U05CG5385HX7&apos;, ip: &apos;10.198.82.65&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;<br/>
+Driver info: driver.version: RemoteWebDriver<br/>
+Session ID: e6b185de-92fe-4f6d-bcb6-7321a4a01a58<br/>
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, unexpectedAlertBehaviour=dismiss, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, version=11, pageLoadStrategy=normal, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:28993/, ie.forceCreateProcessApi=false, proxy={proxyType=}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=}]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)<br />
+              test.FirstTest.kill(FirstTest.java:85)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse">java.lang.IllegalStateException: UnixUtils may not be used on Windows</a><br />
+        <div class="stackTrace" id="exception-5">
+                      org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:189)<br />
+                      org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.getPID(UnixProcess.java:222)<br />
+                      org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$300(UnixProcess.java:201)<br />
+                      org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:132)<br />
+                      org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)<br />
+                      org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:196)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)<br />
+                      test.FirstTest.kill(FirstTest.java:85)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">test.FirstTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  CheckSucceefulLoginPega
+      </td>
+  <td class="duration">
+    2.503s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.UnsupportedCommandException: Error 404: Not Found<br/>
+Not Found<br/>
+Command duration or timeout: 2.47 seconds<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;LH7U05CG5385HX7&apos;, ip: &apos;10.198.82.65&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;<br/>
+Session ID: e6b185de-92fe-4f6d-bcb6-7321a4a01a58<br/>
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver<br/>
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, unexpectedAlertBehaviour=dismiss, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, version=11, pageLoadStrategy=normal, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:28993/, ie.forceCreateProcessApi=false, proxy={proxyType=}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=}]</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)<br />
+              main.pegaUHCMV.&lt;init&gt;(pegaUHCMV.java:24)<br />
+              test.FirstTest.CheckSucceefulLoginPega(FirstTest.java:72)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  checkLogo
+      </td>
+  <td class="duration">
+    4.765s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        user is navigated to http://frontier.uhg.com/Pages/Home.aspx<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;LH7U05CG5385HX7&apos;, ip: &apos;10.198.82.65&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;<br/>
+Driver info: driver.version: RemoteWebDriver<br/>
+Session ID: e6b185de-92fe-4f6d-bcb6-7321a4a01a58<br/>
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=true, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, unexpectedAlertBehaviour=dismiss, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, version=11, pageLoadStrategy=normal, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:28993/, ie.forceCreateProcessApi=false, proxy={proxyType=}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=}]</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)<br />
+              org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)<br />
+              test.FirstTest.checkLogo(FirstTest.java:62)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:28993 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect<br/>
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;<br/>
+System info: host: &apos;LH7U05CG5385HX7&apos;, ip: &apos;10.198.82.65&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;<br/>
+Driver info: driver.version: RemoteWebDriver</a><br />
+        <div class="stackTrace" id="exception-8">
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)<br />
+                      test.FirstTest.checkLogo(FirstTest.java:62)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse">org.apache.http.conn.HttpHostConnectException: Connect to localhost:28993 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-9">
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)<br />
+                      test.FirstTest.checkLogo(FirstTest.java:62)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-10">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)<br />
+                      test.FirstTest.checkLogo(FirstTest.java:62)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+                      java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+                      java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+                      java.lang.Thread.run(Unknown Source)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>
