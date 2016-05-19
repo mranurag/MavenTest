@@ -23,6 +23,7 @@ public class pegaUHCMV {
 	{
 		this.driver = driver;
 		driver.get(strUrl);
+		Reporter.log("user is navigated to "+strUrl);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		PageFactory.initElements(driver, pegaUHCMV.this);
@@ -35,27 +36,33 @@ public class pegaUHCMV {
 		{
 			UserId.sendKeys(strUserName);
 			System.out.println("username entered");
+			Reporter.log("username entered");
 		}catch(NoSuchElementException e)
 		{
 			System.out.println("username field not found");
+			Reporter.log("username field not found");
 		}
 		
 		try
 		{
 			Password.sendKeys(strPassword);
 			System.out.println("Password entered");
+			Reporter.log("Password entered");
 		}catch(NoSuchElementException e)
 		{
 			System.out.println("Password field not found");
+			Reporter.log("Password field not found");
 		}
 		try
 		{
 			LoginButton.click();;
 			System.out.println("Login button clicked");
+			Reporter.log("Login button clicked");
 		}catch(NoSuchElementException e)
 		{
 			System.out.println("Login button not found");
-			Reporter.log("haha");
+			Reporter.log("Login button not found");
+			
 		}
 		
 		

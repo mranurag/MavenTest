@@ -76,6 +76,8 @@ public void CheckSucceefulLoginPega()
 	pegaBPM  =new PegaBPM_HomePage(driver);
 	String chkText = pegaBPM.checkLogOutButton();
 	System.out.println(chkText);
+	Reporter.log("content is "+chkText);
+	
 }
 
 @AfterMethod
