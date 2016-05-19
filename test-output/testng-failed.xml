@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="browserType" value="IE"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test">
+    <parameter name="browserType" value="IE"/>
+    <classes>
+      <class name="test.FirstTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="methods">
+    <parameter name="browserType" value="IE"/>
+    <classes>
+      <class name="test.FirstTest">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="checkLogo"/>
+          <include name="kill"/>
+          <include name="CheckSucceefulLoginPega"/>
+        </methods>
+      </class> <!-- test.FirstTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
